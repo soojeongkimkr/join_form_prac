@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form name="join" action="" method="">
+    First name :<br>
+    <input type="text" required /><br>
+    Last name :<br>
+    <input type="text" required /><br>
+    Email :<br>
+    <input type="text" required /><br>
+
+    Gender :
+    <input type="radio" id="man" name="gender" value="man" />
+    <label for="man">남성</label>
+    <input type="radio" id="woman" name="gender" value="woman" />
+    <label for="woman">여성</label>
+    <br>
+    Favorite : <input type="checkbox" />HTML <input type="checkbox" />JAVA <input type="checkbox" />JavaScript<br>
+    Browser :
+    <select name="browser">
+      <option value="chrome">크롬</option>
+      <option value="firefox">파이어폭스</option>
+      <option value="safari">사파리</option>
+    </select>
+    <br>
+    Birthday:
+    <input type="date">
+    <br>
+    <input type="submit" value="제출" onclick="alert('제출 완료!');">
+  </form>
+</body>
+
+</html>
